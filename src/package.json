@@ -9,7 +9,7 @@
     "react-redux": "^7.0.3",
     "redux": "^4.0.1"
   },
-  "homepage": "https://shoooohei.github.io/practice-simple-count-react-redux-app/",
+  "homepage": "https://github.com/shoooohei/react-redux-calculator.git/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

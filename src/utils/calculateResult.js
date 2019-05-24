@@ -17,15 +17,10 @@ const isCorrectNumberOfBranckets = expression => {
   return numberOfOpenBrancket === numberOfCloseBrancket;
 };
 
-const hasNeutral = expression => {
-  return expression.includes("=");
-};
-
 export default expression => {
   const lastLetter = expression.slice(-1);
   const isLastLetterArithmeticOperator = /[÷×+-]/.test(lastLetter);
   const isLastLetterOpenBrancket = /\(/.test(lastLetter);
-  const isLastLetterCloseBrancket = /\)/.test(lastLetter);
 
   let finalExpression = expression;
   // "("なら計算できないからreturnする
