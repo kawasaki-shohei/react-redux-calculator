@@ -1,15 +1,26 @@
-import React from 'react';
-import { render } from 'react-dom'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import CalculatorContainer from './containers/CalculatorContainer';
-import reducer from './reducers'
+import React, { Component } from "react";
+import { render } from "react-dom";
+import { Provider } from "react-redux";
+import "./style.css";
 
-const store = createStore(reducer);
+import Calculator from "./containers/Calculator";
+import History from "./containers/History";
+import store from "./store";
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Calculator />
+        <History />
+      </div>
+    );
+  }
+}
 
 render(
   <Provider store={store}>
-    <CalculatorContainer />
+    <App />
   </Provider>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

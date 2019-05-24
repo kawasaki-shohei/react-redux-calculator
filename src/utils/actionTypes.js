@@ -1,4 +1,7 @@
-export const INPUT_NUMBER = 'INPUT_NUMBER';
-export const PLUS = 'PLUS';
-export const MINUS = 'MINUS';
-export const CLEAR = 'CLEAR';
+export const ADD_OPERATION = "ADD_OPERATION";
+export const ADD_NUMBER = "ADD_NUMBER";
+export const RESTORE_EXPRESSION = "RESTORE_EXPRESSION";
+export const ADD_HISTORY_ITEM = "ADD_HISTORY_ITEM";
+export const BACKSPACE_EXPRESSION = "BACKSPACE_EXPRESSION;";
+export const ADD_DECIMAL_POINT = "ADD_DECIMAL_POINT";
+export const ALL_CLEAR = "ALL_CLEAR";
