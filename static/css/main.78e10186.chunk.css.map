@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,KAEE,gBACF,CAEA,oBACE,gBACF","file":"main.78e10186.chunk.css","sourcesContent":["h1,\np {\n  font-family: Lato;\n}\n\ninput#display-field {\n  text-align: right;\n}\n"]}
