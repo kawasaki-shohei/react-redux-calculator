@@ -4,7 +4,6 @@ import { Provider } from "react-redux";
 import "./style.css";
 
 import Calculator from "./containers/Calculator";
-import History from "./containers/History";
 import store from "./store";
 
 class App extends Component {
@@ -12,7 +11,6 @@ class App extends Component {
     return (
       <div>
         <Calculator />
-        <History />
       </div>
     );
   }
