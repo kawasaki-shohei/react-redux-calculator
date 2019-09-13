@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-redux-calculator/static/css/main.0143b7b5.chunk.css",
+    "main.css": "/react-redux-calculator/static/css/main.61dcb451.chunk.css",
     "main.js": "/react-redux-calculator/static/js/main.b8c16e46.chunk.js",
     "main.js.map": "/react-redux-calculator/static/js/main.b8c16e46.chunk.js.map",
     "runtime~main.js": "/react-redux-calculator/static/js/runtime~main.e051bab0.js",
@@ -8,8 +8,8 @@
     "static/js/2.ce642275.chunk.js": "/react-redux-calculator/static/js/2.ce642275.chunk.js",
     "static/js/2.ce642275.chunk.js.map": "/react-redux-calculator/static/js/2.ce642275.chunk.js.map",
     "index.html": "/react-redux-calculator/index.html",
-    "precache-manifest.203d91c21057296bec9191a2979b1efb.js": "/react-redux-calculator/precache-manifest.203d91c21057296bec9191a2979b1efb.js",
+    "precache-manifest.dc5ce9abbb5d7f264ca67d5a042ea043.js": "/react-redux-calculator/precache-manifest.dc5ce9abbb5d7f264ca67d5a042ea043.js",
     "service-worker.js": "/react-redux-calculator/service-worker.js",
-    "static/css/main.0143b7b5.chunk.css.map": "/react-redux-calculator/static/css/main.0143b7b5.chunk.css.map"
+    "static/css/main.61dcb451.chunk.css.map": "/react-redux-calculator/static/css/main.61dcb451.chunk.css.map"
   }
 }
